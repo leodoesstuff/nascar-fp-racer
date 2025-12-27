@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NASCAR FP Racer</title>
+  </head>
+  <body>
+    <div id="hud">
+      <div class="row">
+        <div><b>Speed</b>: <span id="speed">0</span> mph</div>
+        <div><b>Lap</b>: <span id="lap">0</span></div>
+        <div><b>Lap time</b>: <span id="lapTime">0.000</span>s</div>
+        <div><b>Best</b>: <span id="best">--</span></div>
+      </div>
+      <div class="hint">
+        Click to lock mouse • WASD steer/accelerate • Space brake • R reset • Shift boost
+      </div>
+    </div>
+
+    <div id="overlay">
+      <div class="card">
+        <h1>NASCAR FP Racer</h1>
+        <p>Click to start (pointer lock).</p>
+        <button id="startBtn">Start</button>
+        <p class="small">Tip: stay on the banking. Try a clean line through the turns.</p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
